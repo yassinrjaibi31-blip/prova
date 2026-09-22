@@ -1,2 +1,2 @@
-# prova
-questo e un file di prova
+# Esercizi di Java
+Qui verrano messi gli esercizi fatti in quarta
