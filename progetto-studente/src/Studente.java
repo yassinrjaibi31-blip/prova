@@ -8,4 +8,10 @@ public class Studente {
     int eta;
     float altezza;
     float peso;
+    /*
+    questo é il costrutore
+     */
+    public Studente(String nome,String cognome,int eta,float altezza,float peso){
+
+    }
 }
