@@ -12,6 +12,10 @@ public class Studente {
     questo é il costrutore
      */
     public Studente(String nome,String cognome,int eta,float altezza,float peso){
-
+        this.nome=nome;
+        this.cognome=cognome;
+        this.eta=eta;
+        this.altezza=altezza;
+        this.peso=peso;
     }
 }
