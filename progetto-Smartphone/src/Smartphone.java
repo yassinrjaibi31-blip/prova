@@ -17,4 +17,22 @@ public class Smartphone {
     this.schermo=schermo;
     this.prezzo=prezzo;
     }
+
+    public String getMarca(){
+        return this.marca;
+    }
+
+    public void setMarca(String marca){
+        this.marca=marca;
+    }
+
+    public String getModello() {
+        return this.modello;
+    }
+
+
+    public void setModello(String modello){
+            this.modello=modello;
+    }
+
 }
