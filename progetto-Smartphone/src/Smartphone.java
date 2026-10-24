@@ -7,56 +7,56 @@ public class Smartphone {
 
     Smartphone(String marca,
                String modello,
-              String memoria,
+               String memoria,
                int schermo,
-               float prezzo)
-
-    {this.marca=marca;
-    this.modello=modello;
-    this.memoria=memoria;
-    this.schermo=schermo;
-    this.prezzo=prezzo;
+               float prezzo) {
+        this.marca = marca;
+        this.modello = modello;
+        this.memoria = memoria;
+        this.schermo = schermo;
+        this.prezzo = prezzo;
     }
 
-    public String getMarca(){
+    public String getMarca() {
         return this.marca;
     }
 
-    public void setMarca(String marca){
+    public void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public String getModello(){
+    public String getModello() {
         return this.modello;
     }
 
-    public void setModello(String modello){
+    public void setModello(String modello) {
         this.modello = modello;
     }
 
-    public String getMemoria(){
+    public String getMemoria() {
         return this.memoria;
     }
 
-    public void setMemoria(String memoria){
+    public void setMemoria(String memoria) {
         this.memoria = memoria;
     }
 
-    public int getschermo(){
+    public int getschermo() {
         return this.schermo;
     }
 
-    public void setSchermo(int schermo){
+    public void setSchermo(int schermo) {
         this.schermo = schermo;
     }
 
-    public float getprezzo(){
+    public float getprezzo() {
         return this.prezzo;
     }
 
-    public  void setPrezzo(float prezzo){
+    public void setPrezzo(float prezzo) {
         this.prezzo = prezzo;
     }
+}
 
 
 
