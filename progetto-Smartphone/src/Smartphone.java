@@ -23,16 +23,48 @@ public class Smartphone {
     }
 
     public void setMarca(String marca){
-        this.marca=marca;
+        this.marca = marca;
     }
 
-    public String getModello() {
+    public String getModello(){
         return this.modello;
     }
 
-
     public void setModello(String modello){
-            this.modello=modello;
+        this.modello = modello;
     }
 
-}
+    public String getMemoria(){
+        return this.memoria;
+    }
+
+    public void setMemoria(String memoria){
+        this.memoria = memoria;
+    }
+
+    public int getschermo(){
+        return this.schermo;
+    }
+
+    public void setSchermo(int schermo){
+        this.schermo = schermo;
+    }
+
+    public float getprezzo(){
+        return this.prezzo;
+    }
+
+    public  void setPrezzo(float prezzo){
+        this.prezzo = prezzo;
+    }
+
+
+
+
+
+
+
+
+
+
+
